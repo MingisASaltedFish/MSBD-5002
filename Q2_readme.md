@@ -17,7 +17,7 @@ The 5th box shows the visualization of this mse
 Try to solve the problem by using the linear regression model. These are the source I use in this task.
 [source 1](https://github.com/fanghao6666/neural-networks-and-deep-learning/tree/master/py)
 [source 2](https://medium.com/analytics-vidhya/coding-logistic-regression-in-python-from-scratch-57284dcbfbff)
-[source 3](https://www.python-engineer.com/courses/mlfromscratch/04_linearandlogisticregression/}{source 3)
+[source 3](https://www.python-engineer.com/courses/mlfromscratch/04_linearandlogisticregression/)
 
 open file *Q5_task2.ipynb*, click *Kernel* then click *Restart & Run All*
 The 3rd box shows the features I use in this problem. They are chosen from task1.
