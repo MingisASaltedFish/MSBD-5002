@@ -3,23 +3,19 @@
 make sure you can open the ipynb file from the jupyter notebook
 
 ## reference code
-[source 1 Matrix Factorization](https://blog.csdn.net/u014595019/article/details/80586438)
-[source 2 MF](https://github.com/albertauyeung/matrix-factorization-in-python/blob/master/mf.py)
-[source 3 adam](https://github.com/theroyakash/Adam/blob/master/Code/Adam.ipynb)
-[source 4 Adam Optimization Algorithm](https://github.com/tech-quantum/techquantum-demos/blob/master/Python/Adam%20Optimization%20Algorithm.ipynb)
-[source 5 Matrix Factorization](https://d2l.ai/chapter_recommender-systems/mf.html)
-[source 6 Matrix-Factorization-Recommender-Systems](https://github.com/williamFalcon/Matrix-Factorization-Recommender-Systems-Netflix-Paper-Implementation)
+[source 1 apriori](https://rasbt.github.io/mlxtend/user_guide/frequent_patterns/apriori/)
+[source 2 apriori alg](https://stackoverflow.com/questions/48482444/extracting-elements-from-frozenset)
+[source 3 FPTree](https://github.com/RohiBaner/FPTree/blob/master/FPTree-Python3.py)
+
+##package demo
+open file *package demo.ipynb*, click *Kernel* then click *Restart & Run All*
+The result of the 7th box shows the frequent itemsets with min-support 10
+This part does not belong to task 1 and 2, just run.
+
 ## Task 1
-open file *without_adam.ipynb*, click *Kernel* then click *Restart & Run All*
-The 3rd box shows the algorithm I write for this problem.
-The 4th box shows some results I make to solve the problem
-The 5th box shows the result of the hyperparameter I choose.
-The 7th box shows the visualization of this F-norm 
+open file *apriori.ipynb*, click *Kernel* then click *Restart & Run All*
+This file is the apriori algorithm I make to solve this problem. The dataset is too large to give the output
 
-## Task 2
-The 8th box shows the adopted Hit Ratio@{10,50,100} 
-
-## Adam try
-open file *adam-fail.ipynb*, click *Kernel* then click *Restart & Run All*
-In this task, I want to use the adam optimizer to make the function better. However, this try is not good becasue of the f-norm is not decrease in 200 iterations.
+open file *FP-tree.ipynb*, click *Kernel* then click *Restart & Run All*
+This code is changed from github, but I can't build the fp-tree alg.
 
